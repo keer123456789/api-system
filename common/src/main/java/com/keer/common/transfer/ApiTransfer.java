@@ -9,14 +9,6 @@ import java.util.List;
  */
 public interface ApiTransfer {
     /**
-     * 返回接口名称
-     * 用于注册此逻辑使用
-     *
-     * @return
-     */
-    String getApiName();
-
-    /**
      * 将接口返回的数据 转化为Workbook
      * 目前只支持xlsx 文件
      *

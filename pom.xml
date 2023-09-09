@@ -6,6 +6,7 @@
     <modules>
         <module>underline</module>
         <module>common</module>
+        <module>jartest</module>
     </modules>
     <groupId>com.keer</groupId>
     <artifactId>api-system</artifactId>

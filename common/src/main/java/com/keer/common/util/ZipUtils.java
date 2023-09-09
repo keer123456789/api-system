@@ -1,5 +1,7 @@
 package com.keer.common.util;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
 import java.io.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
@@ -69,4 +71,7 @@ public class ZipUtils {
         }
     }
 
+    public static void main(String[] args) {
+        System.out.println(DigestUtils.md5Hex("7384ab7f-fdbc-4f0a-b4be-c10ee1b6675b" + "75c6927c-1a2c-400c-a1eb-050eccff6943"));
+    }
 }

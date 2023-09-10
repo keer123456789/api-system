@@ -1,7 +1,7 @@
 package com.keer.common.crypto;
 
 /**
- * @author Bob
+ * @author keer
  * @date 2022-06-08
  */
 public abstract class CryptoFactory {

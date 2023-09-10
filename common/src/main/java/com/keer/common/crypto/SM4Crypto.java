@@ -1,5 +1,6 @@
 package com.keer.common.crypto;
 
+import com.keer.common.exception.CryptoException;
 import org.apache.commons.codec.binary.Base64;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
@@ -13,7 +14,7 @@ import java.security.Security;
 /**
  * 商密4加密解密
  *
- * @author Bob
+ * @author keer
  * @date 2023-04-23
  */
 public class SM4Crypto implements ICrypto {

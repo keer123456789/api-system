@@ -1,4 +1,4 @@
-package com.keer.common.crypto;
+package com.keer.common.exception;
 
 /**
  * @author Bob

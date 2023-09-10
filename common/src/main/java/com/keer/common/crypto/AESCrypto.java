@@ -1,6 +1,5 @@
 package com.keer.common.crypto;
-
-
+import com.keer.common.exception.CryptoException;
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Base64;
 
@@ -13,7 +12,7 @@ import java.security.SecureRandom;
 /**
  * AES加密解密
  *
- * @author Bob
+ * @author keer
  * @date 2022-06-07
  */
 public class AESCrypto implements ICrypto {
